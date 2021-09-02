@@ -46,7 +46,7 @@ Sample Output :
     }
 }
 ```
-<br>
+
 ***
 ### Logout user - POST - https://edvora1.herokuapp.com/api/users/logout
 This api is used to logout the particular session.
@@ -62,7 +62,7 @@ Sample Output :
     "message": "session was logged out sucessfully"
 }
 ```
-<br>
+
 ***
 ### update password - PATCH - https://edvora1.herokuapp.com/api/users/logout
 This api is used to update the password using the old password and logout all other sessions.
@@ -82,7 +82,7 @@ Sample Output :
     "message": "password changed and all loged out from all other sessions"
 }
 ```
-<br>
+
 ***
 ### Logout all - DELETE - https://edvora1.herokuapp.com/api/users/logout
 This api is used to logout all the sessions of the user.
