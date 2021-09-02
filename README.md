@@ -64,7 +64,7 @@ Sample Output :
 ```
 
 ***
-### update password - PATCH - https://edvora1.herokuapp.com/api/users/logout
+### update password - PATCH - https://edvora1.herokuapp.com/api/users/changepassword
 This api is used to update the password using the old password and logout all other sessions.
 Example : 
 ```
@@ -84,7 +84,7 @@ Sample Output :
 ```
 
 ***
-### Logout all - DELETE - https://edvora1.herokuapp.com/api/users/logout
+### Logout all - DELETE - https://edvora1.herokuapp.com/api/users/logoutall
 This api is used to logout all the sessions of the user.
 Example : 
 ```
